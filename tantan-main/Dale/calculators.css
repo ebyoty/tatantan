@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+}
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link a {
+    font-size: 18px;
+}
+
+.display {
+    width: 95%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    text-align: right;
+    font-size: 24px;
+    padding: 5px;
+    color: black;
+}
+
+.buttons button {
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.4s ease;
+}
+.buttons button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.imgs img {
+    width: 300px;
+    height: auto;
+}

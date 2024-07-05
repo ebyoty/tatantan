@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+.container form {
+    padding: 50px 30px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 400px;
+}
+.container form h2 {
+    text-align: center;
+    color:red;
+    font-size: 30px;
+}
+.container form input {
+    font-size: 14px;
+    border-radius: 12px;
+}
+.container .group {
+    margin: 20px;
+}
+.container form .group input {
+    width: 300px;
+    height: 50px;
+    padding: 20px 15px;
+}
+.sumbit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sumbit-button input {
+    padding: 20px 100px;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 22px;
+    color: black;
+    transition: 0.5s;
+    font-size: 18px;
+}
+.sumbit-button input:hover {
+    background-color: red;
+    border: none;
+}
+.text-area p{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.text-area p a {
+    color: black;
+    text-decoration: none;
+}
+.text-area p a:hover {
+    color: red;
+}
+.php {
+    background-color: red;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    color: white;
+}
+.logo img {
+    width: 450px;
+    height: auto;
+    margin-right: 50px;
+}

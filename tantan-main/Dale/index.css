@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+span {
+    color: red;
+}
+.fcon {
+    padding: 0 160px;
+}
+.fcol-text h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.fcol-text p {
+    font-size: 18px;
+}
+.img-area {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.img-area img {
+    width: 200px;
+    height: auto;
+}
+.mainc-text {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 120px;
+    margin-bottom: 5px;
+}
+.mainc-text h1 {
+    font-size: 40px;
+}
+.para {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.para p {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.content {
+    margin-bottom: 40px;
+}
+.content-img {
+    margin-top: 40px;
+    display: flex;
+}
+.content-img p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.content-img img {
+    width: 300px;
+    border: 2px solid red;
+}
+.dales {
+    margin-top: 120px;
+}
+.dales-text {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.dales-text p {
+    font-size: 20px;
+    text-align: center;
+}
+.link {
+    display: flex;
+}
+.link a {
+    padding: 10px 40px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+}
+.link a:hover {
+    background-color: red;
+    color: white;
+}
+.link p {
+    margin: 0 40px;
+    font-size: 22px;
+}
